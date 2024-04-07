@@ -107,3 +107,6 @@ deploy:
   repo: https://github.com/Raysun96/blog.git
   branch: master
 
+
+sitemap:
+  path: sitemap.xml
