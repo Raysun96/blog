@@ -1,7 +1,8 @@
 baseURL = 'https://raysun96.me/blog'
 title = "Ray Sun's Blog"
+author = "Ray Sun"
 theme = 'tailwind'
-copyright = ""
+copyright = "Ray Sun"
 languageCode = 'zh-tw'
 defaultContentLanguage = "zh-tw"
 hasCJKLanguage = true
@@ -14,6 +15,7 @@ enableEmoji = true
 enableGitInfo = true
 
 [markup]
+  _merge = "deep"
 [markup.highlight]
   # lineNos = true
   noClasses = false
@@ -25,6 +27,16 @@ enableGitInfo = true
       enable = true
       eastAsianLineBreaks = true
       escapedSpace = true
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "post"
+    name = "文章"
+    pageRef = "/posts"
+    weight = 10
+
 
 [privacy]
   [privacy.vimeo]
