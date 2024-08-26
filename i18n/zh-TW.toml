@@ -1,0 +1,33 @@
+table_of_contents = "目錄"
+open_main_menu = "打開菜單"
+open_lang_switcher = "打開語言切換"
+[reading_time]
+  one = "閱讀時長{{ .Count }}分鐘"
+  other = "閱讀時長{{ .Count }}分鐘"
+
+[search]
+title = "搜尋"
+empty_result = "無結果。"
+placeholder = "搜尋..."
+
+[header]
+darkmode_toggle = "切換夜間模式"
+
+[404]
+go_back_home = "回到首頁"
+sorry = "對不起，暫未找到您請求的頁面"
+page_not_found = "頁面未找到"
+
+[footer]
+powered_by = "Powered by {{ .Generator }} {{ .Heart }} {{ .Theme }}"
+copyright_with_since ="{{ .CopyrightSign }} {{ .SinceYear }} - {{ .CurrentYear}} {{ .Copyright }}"
+copyright_wo_since ="{{ .CopyrightSign }} {{ .CurrentYear}} {{ .Copyright }}"
+
+[paginator]
+newer_posts = "新文章"
+older_posts = "舊文章"
+
+[taxonomies]
+categories = "分類"
+tags = "標簽"
+series = "系列"

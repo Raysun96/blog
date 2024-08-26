@@ -16,8 +16,8 @@ showReadingTime = true
 jsonLD = false
 
 [author]
-  name = "Hugo Author"
-  email = "user@example.com"
+  name = "Ray Sun"
+  email = ""
 
 [search]
   summaryInclude = 180 # show only part of content in search result.
@@ -29,7 +29,7 @@ jsonLD = false
   sticky = false
 
 [footer]
-  since = 2023
+  since = 2024
   poweredby = true
 
 [taxonomies.icons]
@@ -53,22 +53,22 @@ jsonLD = false
 
 [social_media]
   [[social_media.items]]
-    enabled = false
+    enabled = true
     title = 'Facebook'
     icon = 'brand-facebook'
-    link = 'https://www.facebook.com/'
+    link = 'https://www.facebook.com/raysun96.ray'
 
   [[social_media.items]]
-    enabled = false
+    enabled = true
     title = 'Twitter'
     icon = 'brand-x'
-    link = 'https://twitter.com/__PurPleFoX__'
+    link = 'https://twitter.com/Raysun96'
 
   [[social_media.items]]
-    enabled = false
+    enabled = true
     title = 'Instagram'
     icon = 'brand-instagram'
-    link = 'https://www.instagram.com/'
+    link = 'https://www.instagram.com/raysun96_ray'
 
   [[social_media.items]]
     enabled = false
@@ -77,13 +77,13 @@ jsonLD = false
     link = 'https://www.linkedin.com/'
 
   [[social_media.items]]
-    enabled = false
+    enabled = true
     title = 'Github'
     icon = 'brand-github'
-    link = 'https://github.com/tomowang'
+    link = 'https://github.com/Raysun96'
 
 [pwa]
-  enabled = true
+  enabled = false
   icon = "logo.png" # should be in assets
   icon_sizes = [192, 512]
 
