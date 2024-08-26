@@ -70,17 +70,19 @@ jsonLD = false
     icon = 'brand-instagram'
     link = 'https://www.instagram.com/raysun96_ray'
 
-  [[social_media.items]]
-    enabled = false
-    title = 'LinkedIn'
-    icon = 'brand-linkedin'
-    link = 'https://www.linkedin.com/'
 
   [[social_media.items]]
     enabled = true
     title = 'Github'
     icon = 'brand-github'
     link = 'https://github.com/Raysun96'
+    
+    
+  [[social_media.items]]
+    enabled = true
+    title = 'Mastondon'
+    icon = 'brand-mastodon'
+    link = 'https://mstdn.social/Raysun96'
 
 [pwa]
   enabled = false
