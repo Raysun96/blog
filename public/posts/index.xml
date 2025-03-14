@@ -2,19 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Ray Sun&#39;s Blog</title>
-    <link>https://raysun96.me/blog/posts/</link>
+    <link>https://blog.raysun96.me/posts/</link>
     <description>Recent content in Posts on Ray Sun&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <copyright>Ray Sun</copyright>
-    <lastBuildDate>Mon, 26 Aug 2024 17:58:20 +0800</lastBuildDate>
-    <atom:link href="https://raysun96.me/blog/posts/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 Ray Sun</copyright>
+    <lastBuildDate>Mon, 26 Aug 2024 17:58:20 +0800</lastBuildDate><atom:link href="https://blog.raysun96.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Hello World</title>
-      <link>https://raysun96.me/blog/posts/hello-world/</link>
+      <link>https://blog.raysun96.me/posts/hello-world/</link>
       <pubDate>Mon, 26 Aug 2024 17:58:20 +0800</pubDate>
-      <guid>https://raysun96.me/blog/posts/hello-world/</guid>
-      <description>這是我用hugo加上github pages架設的blog的第一篇文章。 原本的wordpress? 原本用wordpress，首先是我家nas有</description>
+      
+      <guid>https://blog.raysun96.me/posts/hello-world/</guid>
+      <description>這是我用hugo加上github pages架設的blog的第一篇文章。</description>
+      
     </item>
+    
   </channel>
 </rss>

@@ -1,62 +1,75 @@
-baseURL = 'https://raysun96.me/blog'
-title = "Ray Sun's Blog"
-author = "Ray Sun"
-theme = 'tailwind'
-copyright = "Ray Sun"
-languageCode = 'zh-tw'
+# -- Site Configuration --
+# Refer to the theme docs for more details about each of these parameters.
+# https://blowfish.page/docs/getting-started/
+
+theme = "blowfish" # UNCOMMENT THIS LINE
+baseURL = "https://blog.raysun96.me/"
 defaultContentLanguage = "zh-tw"
-hasCJKLanguage = true
-enableInlineShortcodes = true
-# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
-# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
-ignoreErrors = ["error-remote-getjson"]
+
+# pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
+
 enableRobotsTXT = true
+summaryLength = 0
+
+buildDrafts = false
+buildFuture = false
+
 enableEmoji = true
-enableGitInfo = true
 
-[markup]
-  _merge = "deep"
-[markup.highlight]
-  # lineNos = true
-  noClasses = false
-[markup.goldmark]
-  [markup.goldmark.renderer]
-    unsafe = true
-  [markup.goldmark.extensions]
-    [markup.goldmark.extensions.cjk]
-      enable = true
-      eastAsianLineBreaks = true
-      escapedSpace = true
+# googleAnalytics = "G-XXXXXXXXX"
 
+[pagination]
+  pagerSize = 100
 
-[menu]
+[imaging]
+  anchor = 'Center'
 
-  [[menu.main]]
-    identifier = "post"
-    name = "文章"
-    pageRef = "/posts"
-    weight = 10
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  author = "authors"
+  series = "series"
 
+[sitemap]
+  changefreq = 'daily'
+  filename = 'sitemap.xml'
+  priority = 0.5
 
-[privacy]
-  [privacy.vimeo]
-    disabled = false
-    simple = true
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
-  [privacy.twitter]
-    disabled = false
-    enableDNT = true
-    simple = true
+[related]
+  threshold = 0
+  toLower = false
 
-  [privacy.instagram]
-    disabled = false
-    simple = true
+    [[related.indices]]
+        name = "tags"
+        weight = 100
 
-  [privacy.youtube]
-    disabled = false
-    privacyEnhanced = true
+    [[related.indices]]
+        name = "categories"
+        weight = 100
 
-[module]
-  [module.hugoVersion]
-    extended = false
-    min = "0.120.0"
+    [[related.indices]]
+        name = "series"
+        weight = 50
+
+    [[related.indices]]
+        name = "authors"
+        weight = 20
+
+    [[related.indices]]
+        name = "date"
+        weight = 10
+
+    [[related.indices]]
+      applyFilter = false
+      name = 'fragmentrefs'
+      type = 'fragments'
+      weight = 10
+      
+      
+      
+[languages.zh-tw]
+  languageCode = "zh-tw"
+

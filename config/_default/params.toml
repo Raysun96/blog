@@ -1,96 +1,108 @@
-# SEO keywords and description for your site.
-keywords = "hugo, tailwind, raysun96, raysun"
-subtitle = ""
-
-# dir name of your blog content (default is `content/posts`).
-# the list of set content will show up on your index page (baseurl).
-contentTypeName = "posts"
-
-# Show table of contents at the top of your posts (defaults to false)
-# Alternatively, add this param to post front matter for specific posts
-toc = true
-
-showReadingTime = true
-
-# use structure json-ld for articles
-jsonLD = false
-
-[author]
-  name = "Ray Sun"
-  email = ""
-
-[search]
-  summaryInclude = 180 # show only part of content in search result.
-  minMatchCharLength = 2 # https://www.fusejs.io/api/options.html#minmatchcharlength
-  threshold = 0.3 # https://www.fusejs.io/api/options.html#threshold
+colorScheme = "blowfish"
+defaultAppearance = "dark"
+autoSwitchAppearance = true
+enableSearch = true
+enableCodeCopy = false
+replyByEmail = false
+disableImageOptimization = false
+disableTextInHeader = false
+giteaDefaultServer = "https://git.fsfe.org"
+forgejoDefaultServer = "https://v8.next.forgejo.org"
 
 [header]
-  logo = "logo-rs.jpg"
-  sticky = false
+layout = "fixed"
 
 [footer]
-  since = 2024
-  poweredby = true
+showMenu = true
+showCopyright = true
+showThemeAttribution = true
+showAppearanceSwitcher = true
+showScrollToTop = true
 
-[taxonomies.icons]
-  categories = "category-2"
-  tags = "hash"
+[homepage]
+layout = "background"
+showRecent = "ture"
+showRecentItems = 5
+showMoreLink = false
+showMoreLinkDest = "/posts/"
+cardView = false
+cardViewScreenWidth = false
+layoutBackgroundBlur = false
+homepageImage = "background.jpg"
 
-# giscus is comments system powered by GitHub Discussions
-# generate configurations from https://giscus.app/
-[giscus]
-  enabled = false
-  repo = "your-repo-name"
-  repoID = "your-repo-id"
-  category = "your-category"
-  categoryID = "your-category-id"
-  mapping = "pathname"
-  strict = "0"
-  reactionsEnabled = "1"
-  emitMetadata = "0"
-  inputPosition = "bottom"
-  lang = "en"
+[article]
+showDate = true
+showViews = false
+showLikes = false
+showDateOnlyInArticle = false
+showDateUpdated = false
+showAuthor = true
+showHero = false
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = false
+showDraftLabel = true
+showEdit = false
+editAppendPath = true
+seriesOpened = false
+showHeadingAnchors = true
+showPagination = true
+invertPagination = false
+showReadingTime = true
+showTableOfContents = false
+showTaxonomies = false
+showAuthorsBadges = false
+showWordCount = true
+showZenMode = false
 
-[social_media]
-  [[social_media.items]]
-    enabled = true
-    title = 'Facebook'
-    icon = 'brand-facebook'
-    link = 'https://www.facebook.com/raysun96.ray'
+[list]
+showHero = false
+layoutBackgroundBlur = true
+layoutBackgroundHeaderSpace = true
+showBreadcrumbs = false
+showSummary = false
+showViews = false
+showLikes = false
+showTableOfContents = false
+showCards = false
+orderByWeight = false
+groupByYear = true
+cardView = false
+cardViewScreenWidth = false
+constrainItemsWidth = false
 
-  [[social_media.items]]
-    enabled = true
-    title = 'Twitter'
-    icon = 'brand-x'
-    link = 'https://twitter.com/Raysun96'
+[sitemap]
+excludedKinds = [ "taxonomy", "term" ]
 
-  [[social_media.items]]
-    enabled = true
-    title = 'Instagram'
-    icon = 'brand-instagram'
-    link = 'https://www.instagram.com/raysun.96'
+[taxonomy]
+showTermCount = true
+showHero = false
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = false
+cardView = false
 
+[term]
+showHero = false
+showBreadcrumbs = false
+showViews = false
+showLikes = false
+showTableOfContents = true
+groupByYear = false
+cardView = false
+cardViewScreenWidth = false
 
-  [[social_media.items]]
-    enabled = true
-    title = 'Github'
-    icon = 'brand-github'
-    link = 'https://github.com/Raysun96'
-    
-    
-  [[social_media.items]]
-    enabled = true
-    title = 'Mastondon'
-    icon = 'brand-mastodon'
-    link = 'https://mstdn.social/Raysun96'
+[firebase]
 
-[pwa]
-  enabled = false
-  icon = "logo.png" # should be in assets
-  icon_sizes = [192, 512]
+[fathomAnalytics]
 
-  # will be used as the manifest.json file and merge the default one
-  # https://developer.mozilla.org/en-US/docs/Web/Manifest
-  # https://web.dev/add-manifest/
-  [pwa.manifest]
-  description = "Example site for hugo-theme-tailwind"
+[umamiAnalytics]
+
+[selineAnalytics]
+
+[buymeacoffee]
+
+[verification]
+
+[rssnext]

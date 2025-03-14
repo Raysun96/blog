@@ -1,0 +1,18 @@
+disabled = true
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "Ray Sun's Blog"
+
+[params]
+displayName = "EN"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+logo = "logo-rs.jpg"
+description = "什麼都寫，什麼都不奇怪"
+author = { name = "Ray Sun" ,headline = "什麼都寫，什麼都不奇怪。"}
+
+[author]
+links = [ { facebook = "facebook.com/raysun96.96" }, { github = "github.com/Raysun96" }, { gitlab = "gitlab.com/Raysun96" }, { instagram = "instagram.com/raysun.96" }, { mastodon = "mstdn.social/@Raysun96" }, { reddit = "reddit.com/user/Raysun96" }, { twitter = "twitter.com/Raysun96" } ]
+

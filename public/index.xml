@@ -2,26 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ray Sun&#39;s Blog</title>
-    <link>https://raysun96.me/blog/</link>
+    <link>https://blog.raysun96.me/</link>
     <description>Recent content on Ray Sun&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <copyright>Ray Sun</copyright>
-    <lastBuildDate>Mon, 26 Aug 2024 17:58:20 +0800</lastBuildDate>
-    <atom:link href="https://raysun96.me/blog/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2025 Ray Sun</copyright>
+    <lastBuildDate>Mon, 26 Aug 2024 17:58:20 +0800</lastBuildDate><atom:link href="https://blog.raysun96.me/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Hello World</title>
-      <link>https://raysun96.me/blog/posts/hello-world/</link>
+      <link>https://blog.raysun96.me/posts/hello-world/</link>
       <pubDate>Mon, 26 Aug 2024 17:58:20 +0800</pubDate>
-      <guid>https://raysun96.me/blog/posts/hello-world/</guid>
-      <description>這是我用hugo加上github pages架設的blog的第一篇文章。 原本的wordpress? 原本用wordpress，首先是我家nas有</description>
+      
+      <guid>https://blog.raysun96.me/posts/hello-world/</guid>
+      <description>這是我用hugo加上github pages架設的blog的第一篇文章。</description>
+      
     </item>
+    
     <item>
-      <title></title>
-      <link>https://raysun96.me/blog/manifest.json</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://raysun96.me/blog/manifest.json</guid>
-      <description></description>
+      <title>關於我</title>
+      <link>https://blog.raysun96.me/about/</link>
+      <pubDate>Mon, 26 Aug 2024 17:58:20 +0800</pubDate>
+      
+      <guid>https://blog.raysun96.me/about/</guid>
+      <description>應該要打些東西的，但是還沒弄好。</description>
+      
     </item>
+    
   </channel>
 </rss>
