@@ -5,4 +5,4 @@ draft = false
 +++
 
 <s>應該要打些東西的，但是還沒弄好。</s>  
-不如到{{< newtabref href="https://raysun96.me" title="我的網站">}}看看吧！
+不如到[我的網站](https://raysun96.me)看看吧！
