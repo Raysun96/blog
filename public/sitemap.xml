@@ -9,24 +9,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://blog.raysun96.me/</loc>
-    <lastmod>2026-01-21T12:21:11+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://blog.raysun96.me/posts/start-writing-blog/</loc>
-    <lastmod>2026-01-21T12:21:11+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://blog.raysun96.me/posts/hello-world/</loc>
-    <lastmod>2024-08-26T17:58:20+08:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://blog.raysun96.me/about/</loc>
     <lastmod>2024-08-26T17:58:20+08:00</lastmod>
     <changefreq>daily</changefreq>
