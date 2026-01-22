@@ -6,8 +6,18 @@
     <description>Recent content in Posts on Ray Sun&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <copyright>© 2025 Ray Sun</copyright>
-    <lastBuildDate>Mon, 26 Aug 2024 17:58:20 +0800</lastBuildDate><atom:link href="https://blog.raysun96.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2026 Ray Sun</copyright>
+    <lastBuildDate>Wed, 21 Jan 2026 12:21:11 +0800</lastBuildDate><atom:link href="https://blog.raysun96.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>開始寫Blog</title>
+      <link>https://blog.raysun96.me/posts/start-writing-blog/</link>
+      <pubDate>Wed, 21 Jan 2026 12:21:11 +0800</pubDate>
+      
+      <guid>https://blog.raysun96.me/posts/start-writing-blog/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Hello World</title>
@@ -15,7 +25,7 @@
       <pubDate>Mon, 26 Aug 2024 17:58:20 +0800</pubDate>
       
       <guid>https://blog.raysun96.me/posts/hello-world/</guid>
-      <description>這是我用hugo加上github pages架設的blog的第一篇文章。</description>
+      <description></description>
       
     </item>
     
