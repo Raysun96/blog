@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish" # UNCOMMENT THIS LINE
-baseURL = "https://blog.raysun96.me/"
+baseURL = 'https://blog.raysun96.me/'
 defaultContentLanguage = "zh-tw"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
@@ -73,3 +73,6 @@ enableEmoji = true
 [languages.zh-tw]
   languageCode = "zh-tw"
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
